@@ -1,0 +1,30 @@
+/* src/pages/About.css */
+
+.about-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+  background-color: #f1f5f9;
+  min-height: 80vh;
+}
+
+.about-content {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.about-content h1 {
+  font-size: 2rem;
+  color: #1e293b;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about-content p {
+  font-size: 1rem;
+  color: #334155;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
