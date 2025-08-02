@@ -1,7 +1,7 @@
 
 .create-post {
   max-width: 600px;
-  margin: 40px auto;
+  margin: 50px auto;
   padding: 20px;
   background-color: #f4f4f4;
   border-radius: 10px;
@@ -20,6 +20,7 @@
 .create-post input,
 .create-post textarea {
   margin-bottom: 15px;
+  font-family: 'Courier New', Courier, monospace;
   padding: 12px;
   font-size: 1rem;
   border-radius: 6px;

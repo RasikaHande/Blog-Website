@@ -41,11 +41,28 @@ const CreatePost = () => {
           value={title}
           onChange={(e) => setTitle(e.target.value)}
         />
+        <input
+          type="text"
+          placeholder="Author"
+          value={title}
+          onChange={(e) => setTitle(e.target.value)}
+        />
         <textarea
-          placeholder="Post content"
+          placeholder="Post Content"
           value={content}
           onChange={(e) => setContent(e.target.value)}
         ></textarea>
+        <textarea
+          placeholder="Tip"
+          value={content}
+          onChange={(e) => setContent(e.target.value)}
+        ></textarea>
+        <input
+          type="text"
+          placeholder="add hashtags #"
+          value={title}
+          onChange={(e) => setTitle(e.target.value)}
+        />
         <button type="submit">Publish</button>
       </form>
     </div>
