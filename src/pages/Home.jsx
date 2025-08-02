@@ -1,35 +1,6 @@
-// // src/pages/Home.jsx
-// import React from "react";
-// import './home.css';
-// import { usePost } from '../context/PostContext';
-
-// const Home = () => {
-//   const { posts } = usePost();
-
-//   return (
-//     <div className="home">
-//       <h2>All Blog Posts</h2>
-//       {posts.length === 0 ? (
-//         <p>No posts yet.</p>
-//       ) : (
-//         posts.map((post) => (
-//           <div key={post.id} className="post-card">
-//             <h3>{post.title}</h3>
-//             <p><strong>Author:</strong> {post.author}</p>
-//             <p><strong>Posted:</strong> {post.createdAt}</p>
-//             <p>{post.content}</p>
-//           </div>
-//         ))
-//       )}
-//     </div>
-//   );
-// };
-
-// export default Home;
-
 // src/pages/Home.jsx
 import React from "react";
-import './home.css';
+import './Home.css';
 import { usePost } from '../context/PostContext';
 import staticPosts from "../data/staticPosts"; // import static blog posts
 
