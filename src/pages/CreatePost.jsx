@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { usePost } from "../context/PostContext";
 import { useAuth } from "../context/AuthContext";
 import { useNavigate } from "react-router-dom";
-import "./createpost.css";
+import "./CreatePost.css";
 
 const CreatePost = () => {
   const { user } = useAuth();
