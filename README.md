@@ -32,9 +32,6 @@ A modern and responsive blog website built with **React.js**, **CSS3**, and **Vi
 Make sure you have **Node.js (v18 or later)** installed.
 
 ```bash
-# Clone the repository
-git clone https://github.com/your-username/my-blog.git
-
 # Navigate into the project directory
 cd my-blog
 
